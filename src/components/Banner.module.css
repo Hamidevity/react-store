@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    position: relative;
+
+}
+.container img {
+    width: 100%;
+    filter: blur(4px);
+}
+.textContainer{
+    position: absolute;
+    top:150px;
+    left:100px;
+}
+.textContainer h1 {
+    font-size: 7rem;
+    background: #959595;
+    background: linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.textContainer p{
+    font-size: 4rem;
+    margin-top: 20px;
+    background: #959595;
+    background: linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.textContainer span{
+    background: #F5F5F5;
+background: radial-gradient(circle farthest-corner at center center, #F5F5F5 0%, #231421 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: larger;
+}
+.textContainer .span1{
+    background: #F6F8F9;
+background: radial-gradient(circle farthest-corner at center center, #F6F8F9 6%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
